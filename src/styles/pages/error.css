@@ -1,0 +1,24 @@
+a {
+    color: #ff6060;
+
+}
+
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ff6060;
+
+
+   
+    }
+    .backHome {
+        width: 260px;
+        margin: 145px 0 238px 0;
+        
+
+        
+    
+    }
