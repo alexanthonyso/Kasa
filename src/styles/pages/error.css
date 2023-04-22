@@ -1,24 +1,24 @@
 a {
-    color: #ff6060;
-
+  color: #ff6060;
+  font-size: 18px;
 }
 
-
 .error {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #ff6060;
-
-
-   
-    }
-    .backHome {
-        width: 260px;
-        margin: 145px 0 238px 0;
-        
-
-        
-    
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ff6060;
+}
+.error p{
+  font-size: 36px;
+  color: #ff6060;
+}
+.error h1{
+  
+  font-size: 288px;
+}
+.backHome {
+  width: 260px;
+  margin: 145px 0 238px 0;
+}

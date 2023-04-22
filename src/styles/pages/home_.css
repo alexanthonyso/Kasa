@@ -1,7 +1,9 @@
 .banner {
+  padding-top: 63px;
   padding-bottom: 22px;
 }
 .banner h1 {
+  padding-top: 70px;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -9,9 +11,10 @@
   z-index: 1;
 }
 .banner img {
-  object-fit: cover;
   width: 100%;
-  filter: brightness(50%);
+  height: 223px;
   border-radius: 10px;
+  object-fit: cover;
+  position: relative;
+  filter: brightness(60%);
 }
-
