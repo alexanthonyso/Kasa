@@ -2,6 +2,8 @@ import React from "react"
 import {useState} from "react"
 import topArrow from "../assets/logo/topArrow.svg"
 import bottomArrow from "../assets/logo/bottomArrow.svg"
+import "../styles/pages/about.css"
+import "../styles/components/_dropdown.css"
 
 
 const Dropdown = ({content, title, classDP, classP}) => {

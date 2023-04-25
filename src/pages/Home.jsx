@@ -8,6 +8,8 @@ import "../styles/components/_footer.css"
 
 
 
+
+
 const Home = () => {
     return (
         <div>

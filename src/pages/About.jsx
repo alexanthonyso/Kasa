@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from "../components/Footer"
-import "../styles/components/_footer.css"
 import Dropdown from '../components/dropdown';
+import about from "../assets/img/about.jpg"
 
 const About = () => {
     const reliability =
@@ -15,7 +15,9 @@ const About = () => {
         <div>
             <div className='content'>
             <Header />
-            
+            <div className='bannerAbout'>
+                    <img src={about} alt="Paysage montagneux" />
+                </div>
             </div>
 
             <main className="dropdownAbout">
