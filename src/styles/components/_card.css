@@ -1,0 +1,29 @@
+.locations_container {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0px;
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  gap: 40px;
+  padding: 30px 30px 30px 30px;
+}
+
+article h2 {
+  display: flex;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+}
+
+article img:hover {
+  box-shadow: 0 0 15px 4px rgb(158, 151, 151);
+}
+
+article img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}

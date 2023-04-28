@@ -1,9 +1,11 @@
-import React from 'react';
+import React from 'react'
+import "../styles/components/_card.css"
 
 const Card = ({location}) => {
     return (
         <article>
-            <a href=""></a>
+            <h2>{location.title}</h2>
+            <img src={location.cover} alt="" />
         </article>
     );
 };

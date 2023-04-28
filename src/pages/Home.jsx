@@ -10,6 +10,7 @@ import "../styles/components/_footer.css"
 
 
 
+
 const Home = () => {
     return (
         <div>
@@ -20,6 +21,9 @@ const Home = () => {
                     <img src={home} alt="Paysage de rochers avec des arbres à côté de la mer" />
                 </div>
                 </div>
+                <Locations />
+                
+                <div/>
                 <Footer />
         </div>
         

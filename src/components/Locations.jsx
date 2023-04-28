@@ -1,15 +1,16 @@
-import React from "react"
-import {NavLink} from "react-router-dom"
+import data from "../datas/logements.json";
+import Card from "./Card";
+import "../styles/components/_locations.css"
 
 const Locations = () => {
-    // const [locationsData, setLocationsState] = React.useState(locations)
-    // return (
-    //     {
-    //         locationsData.map(({location, id}) => (
-    //             <Card key={id}/>
-    //         ))
-    //     }
-    // )
-}
+  return (
+    <main className="locations">
+        <div className="locations_container">
+      {
+        data.map((location, id) => <Card key={id} location={location} />)}
+        </div>
+    </main>
+  );
+};
 
-export default Locations
+export default Locations;
