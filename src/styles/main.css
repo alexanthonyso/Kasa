@@ -1,5 +1,6 @@
 
 * {
+    font-family: 'Montserrat', sans-serif;
     width: auto;
     height: auto;
     margin: 0;
@@ -8,7 +9,10 @@
 
 
 
-
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .content {
     margin-left: 20px;
