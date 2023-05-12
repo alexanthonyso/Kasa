@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from "../components/Footer"
-import Dropdown from '../components/dropdown';
+import Dropdown from '../components/Dropdown';
 import about from "../assets/img/about.jpg"
 
 const About = () => {
