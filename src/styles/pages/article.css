@@ -1,0 +1,12 @@
+.article__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Dropdownarticle {
+  width: 45%;
+}
+
+.Dropdownarticle .dropdown__button {
+  height: 52px;
+}

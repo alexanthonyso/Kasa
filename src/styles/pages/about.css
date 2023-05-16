@@ -1,5 +1,8 @@
 .dropdownAbout {
     margin-bottom: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dropdownAbout__button {

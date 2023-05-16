@@ -1,6 +1,6 @@
 import data from "../datas/logements.json";
 import Card from "./Card";
-import "../styles/components/_locations.css"
+
 
 const Locations = () => {
   return (
