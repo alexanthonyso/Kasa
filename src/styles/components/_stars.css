@@ -1,3 +1,4 @@
 .content__info2__stars {
   display: flex;
+  gap: 1%;
 }

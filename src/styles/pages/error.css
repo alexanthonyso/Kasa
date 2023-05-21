@@ -9,17 +9,27 @@ a {
   align-items: center;
   text-align: center;
   color: #ff6060;
-  margin-bottom: 252px;
+  margin-top: 169px;
 }
-.error p{
+.error p {
   font-size: 36px;
   color: #ff6060;
+  margin-top: 66px;
 }
-.error h1{
-  
+.error h1 {
   font-size: 288px;
 }
-.backHome {
-  width: 260px;
+.backtoHome {
+  width: 300px;
   margin: 145px 0 238px 0;
+}
+
+@media (max-width: 767px) {
+  .error h1 {
+    font-size: 96px;
+  }
+  .error p {
+    font-size: 18px;
+    margin-top: 11px;
+  }
 }

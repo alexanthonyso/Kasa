@@ -28,7 +28,7 @@ const Article = () => {
       </div>
       <main>
         <Slider pictures={getData.pictures} />
-        <section className="article_details">
+        <section className="article_informations">
           <div>
             <h1>{getData.title}</h1>
             <p className="article__location">{getData.location}</p>
@@ -36,7 +36,7 @@ const Article = () => {
           </div>
           <div className="article__info2">
             <Stars stars={getData.rating} />
-            <figure>
+            <figure className="namepicture">
               <figcaption>
                 <p>{firstName}</p>
                 <p>{lastName}</p>
@@ -47,6 +47,7 @@ const Article = () => {
               />
             </figure>
           </div>
+          </section>
 
           <section className="article__details">
             <div className="Dropdownarticle">
@@ -57,17 +58,18 @@ const Article = () => {
                 content={getData.description}
               />
             </div>
+
+            <div className="Dropdownarticle">
+              <div className="article__details__space"></div>
+              <Dropdown
+                classDP="dropdownArticle__button"
+                classP="dropdownArticle__p"
+                title="Équipements"
+                content={getData.equipments}
+              />
+            </div>
           </section>
-          <div className="Dropdownarticle">
-            <div className="article__details__space"></div>
-            <Dropdown
-              classDP="dropdownArticle__button"
-              classP="dropdownArticle__p"
-              title="Équipements"
-              content={getData.equipments}
-            />
-          </div>
-        </section>
+        
       </main>
       <div />
       <Footer />

@@ -14,6 +14,7 @@ import "../styles/components/_footer.css"
 const Home = () => {
     return (
         <div>
+            <main>
            <div className='content'>
             <Header />
                  <div className='banner'>
@@ -22,7 +23,7 @@ const Home = () => {
                 </div>
                 </div>
                 <Locations />
-                
+                </main>
                 <div/>
                 <Footer />
         </div>

@@ -27,7 +27,8 @@ const Slider = ({ pictures }) => {
       <img className="left" src={leftArrow} onClick={prev} alt="" />
       <img className="right" src={rightArrow} onClick={next} alt="" />
 
-      <p>
+
+      <p className="number">
         {number} / {tab}
       </p>
 

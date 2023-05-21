@@ -1,5 +1,3 @@
-
-
 .slideActive {
   width: 100%;
   height: 100%;
@@ -10,7 +8,7 @@
 
 .right {
   width: auto;
-  margin-right:10px;
+  margin-right: 10px;
   top: 50%;
   right: 6px;
   position: absolute;
@@ -21,7 +19,7 @@
 
 .left {
   width: auto;
-  margin-left:10px;
+  margin-left: 10px;
   top: 50%;
   left: 6px;
   position: absolute;
@@ -31,11 +29,10 @@
 }
 
 .slideimg {
-  width:100%;
-  height:100%;
-  border-radius:25px;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
   object-fit: cover;
-  
 }
 
 .slider {
@@ -43,14 +40,29 @@
   height: 415px;
   margin-bottom: 3%;
   position: relative;
-
 }
 
 .slide {
-  position:absolute;
-  display:flex;
+  position: absolute;
+  display: flex;
   justify-content: center;
-   opacity: 0;
-   z-index: -1;
+  opacity: 0;
+  z-index: -1;
 }
 
+@media (max-width: 767px) {
+  .slideimg {
+    width: 100%;
+   
+    border-radius: 10px;
+  }
+
+  .left,
+  .right {
+    height: 20px;
+    width: 12px;
+  }
+
+
+
+}

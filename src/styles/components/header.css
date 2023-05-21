@@ -17,14 +17,14 @@ header {
   height: 47px;
 }
 
-ul {
+.navlink ul {
   display: flex;
   list-style-type: none;
 }
-li {
+.navlink li {
   color: #ff6060;
   margin-top: 10px;
-  margin-left: 55px;
+  margin-left: 35px;
   text-decoration: none;
 }
 

@@ -1,20 +1,26 @@
-
 * {
-    font-family: 'Montserrat', sans-serif;
-    width: auto;
-    height: auto;
-    margin: 0;
-
+  font-family: "Montserrat", sans-serif;
+  width: auto;
+  height: auto;
+  margin: 0;
 }
 
-
-
-main{
-    max-width: 1500px;
-    margin: auto;
+main {
+  max-width: 1500px;
+  margin: auto;
 }
 
 .content {
-    max-width: 1500px;
-    margin: auto;
+  max-width: 1500px;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  main {
+    margin: 0 20px;
+  }
+
+  .content {
+    margin: 0 20px;
+  }
 }
