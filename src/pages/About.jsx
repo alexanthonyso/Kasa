@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import Dropdown from '../components/Dropdown';
 import about from "../assets/img/about.jpg"
 
+
 const About = () => {
     const reliability =
         "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."

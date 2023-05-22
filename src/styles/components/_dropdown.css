@@ -2,14 +2,21 @@
   width: 100%;
   margin-bottom: 20px;
   background-color: #f6f6f6;
-  height: 100%;
+ 
 }
 
 .dropdown p {
   color: #ff6060;
+
 }
 
+.dropdown ul {
+  padding: 20px 20px 53px 20px;
+}
 
+.dropdown li {
+  padding-top: 1%;
+}
 
 .dropdown__button {
   width: 100%;

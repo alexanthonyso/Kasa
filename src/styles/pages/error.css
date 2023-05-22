@@ -22,14 +22,21 @@ a {
 .backtoHome {
   width: 300px;
   margin: 145px 0 238px 0;
+  text-decoration: underline;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 796px) {
   .error h1 {
     font-size: 96px;
   }
   .error p {
     font-size: 18px;
     margin-top: 11px;
+    width: 61%;
   }
+
+.backtoHome{
+  font-size: 14px;
+}
+
 }

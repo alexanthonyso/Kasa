@@ -9,7 +9,7 @@ const Slider = ({ pictures }) => {
 
   const [number, setNumber] = useState(1);
 
-  const tab = pictures.length;
+  const tab = pictures && pictures.length;
 
   const next = () => {
     setCurrent(current === tab - 1 ? 0 : current + 1);
@@ -32,7 +32,7 @@ const Slider = ({ pictures }) => {
         {number} / {tab}
       </p>
 
-      {pictures.map((picture, index) => (
+      {pictures && pictures.map((picture, index) => (
         <img
           className={
             (index === current ? "slideActive" : "slide") + " slideimg"

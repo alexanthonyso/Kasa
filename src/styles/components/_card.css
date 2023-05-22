@@ -1,5 +1,4 @@
 .locations_container {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -26,8 +25,8 @@ article h2 {
   margin-left: 1%;
 }
 
-article img:hover {
-  box-shadow: 0 0 15px 4px rgb(158, 151, 151);
+article:hover {
+  /* box-shadow: 0 0 15px 4px rgb(158, 151, 151); */
 }
 
 article img {
@@ -35,19 +34,21 @@ article img {
   height: 340px;
   object-fit: cover;
   border-radius: 10px;
+  
+  
 }
 
 /* RESPONSIVE */
 
-@media (max-width: 767px) {
+@media (max-width: 796px) {
   article img {
     width: 335px;
     height: 255px;
   }
-.locations_container{
-background-color: white;
-gap: 10px;
-}
+  .locations_container {
+    background-color: white;
+    gap: 10px;
+  }
   article h2 {
     width: 40%;
     font-size: 18px;

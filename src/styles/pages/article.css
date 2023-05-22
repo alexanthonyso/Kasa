@@ -15,7 +15,7 @@ color: #ff6060;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin-bottom: 17px;
 }
 figure img {
@@ -47,6 +47,7 @@ figcaption p {
 
 .dropdownArticle__p {
   padding: 20px 20px 53px 20px;
+  height: 125px;
 }
 
 .number {
@@ -61,14 +62,16 @@ figcaption p {
 
 .namepicture {
   display: flex;
+  align-items: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 796px) {
   .article__details {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    margin-bottom: 220px;
   }
 
   .Dropdownarticle {
@@ -84,5 +87,6 @@ figcaption p {
   .article__info2 {
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
 }

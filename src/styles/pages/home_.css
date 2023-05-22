@@ -2,11 +2,15 @@
   padding-top: 63px;
   padding-bottom: 22px;
 }
+
+.banner_title {
+ 
+  display: flex;
+  justify-content: center;
+}
 .banner h1 {
-  top: 25%;
+  top: 240px;
   position: absolute;
-  
-  text-align: center;
   color: rgb(255, 255, 255);
   z-index: 1;
   font-size: 48px;
@@ -21,11 +25,20 @@
 }
 
 /* RESPONSIVE */
-@media (max-width: 767px) {
+@media (max-width: 796px) {
   .banner img {
     border-radius: 10px;
+    height: 111px;
+  }
+  .banner {
+    padding-top: 16px;
+    padding-bottom: 0;
   }
 
-
-  
+  .banner h1 {
+    top: 125px;
+    width: 46%;
+    padding-right: 149px;
+    font-size: 24px;
+  }
 }
