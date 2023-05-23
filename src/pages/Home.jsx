@@ -3,7 +3,7 @@ import Locations from "../components/Locations";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import home from "../assets/img/home.jpg";
-import "../styles/pages/home_.css";
+import "../styles/pages/home.css";
 import "../styles/components/_footer.css";
 
 
