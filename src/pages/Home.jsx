@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import home from "../assets/img/home.jpg";
 import "../styles/pages/home.css";
 import "../styles/components/_footer.css";
-
+import Banner from "../components/Banner";
 
 
 const Home = () => {
@@ -14,16 +14,12 @@ const Home = () => {
       <main>
         <div className="content">
           <Header />
-          <div className="banner">
-            <div className="banner_title">
-              <h1>Chez vous, partout et ailleurs</h1>
-            </div>
-            <img
-              src={home}
-              alt="Paysage de rochers avec des arbres à côté de la mer"
-            />
-          </div>
+          <Banner
+          Img={home}
+          Title="Chez vous, partout et ailleurs"
+          />
         </div>
+
         <Locations />
       </main>
       <div />

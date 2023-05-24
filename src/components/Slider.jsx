@@ -24,24 +24,30 @@ const Slider = ({ pictures }) => {
   // console.log(current);
   return (
     <div className="slider">
-      <img className="left" src={leftArrow} onClick={prev} alt="" />
-      <img className="right" src={rightArrow} onClick={next} alt="" />
+      {tab > 1 && (
+        <img className="left" src={leftArrow} onClick={prev} alt="" />
+      )}
+      {tab > 1 && (
+        <img className="right" src={rightArrow} onClick={next} alt="" />
+      )}
 
+      {tab > 1 && (
+        <p className="number">
+          {number} / {tab}
+        </p>
+      )}
 
-      <p className="number">
-        {number} / {tab}
-      </p>
-
-      {pictures && pictures.map((picture, index) => (
-        <img
-          className={
-            (index === current ? "slideActive" : "slide") + " slideimg"
-          }
-          src={picture}
-          key={index}
-          alt=""
-        />
-      ))}
+      {pictures &&
+        pictures.map((picture, index) => (
+          <img
+            className={
+              (index === current ? "slideActive" : "slide") + " slideimg"
+            }
+            src={picture}
+            key={index}
+            alt=""
+          />
+        ))}
     </div>
   );
 };
