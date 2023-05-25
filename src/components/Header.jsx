@@ -10,7 +10,7 @@ const Header = () => {
         <img className="logo" src={Logo} alt="Logo Kasa" />
       </Link>
 
-      <nav>
+      <nav className="navigation">
         <NavLink to="/">
           {({ isActive }) => (isActive ? styles.active : styles.inactive)}
           Accueil

@@ -7,8 +7,9 @@
   display: flex;
   justify-content: space-between;
 }
-.article_informations h1, p {
-color: #ff6060;
+.article_informations h1,
+p {
+  color: #ff6060;
 }
 
 .article__info2 {
@@ -43,6 +44,10 @@ figcaption p {
 .dropdown__equipments li {
   color: #ff6060;
   list-style: none;
+}
+.dropdown__equipments li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .dropdownArticle__p {
